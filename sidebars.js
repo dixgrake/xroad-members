@@ -11,6 +11,7 @@ const sidebars = {
         'intro/index',
         'intro/arquitectura',
         'intro/glosario',
+        'intro/versiones',
       ],
     },
     {

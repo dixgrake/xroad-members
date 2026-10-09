@@ -97,8 +97,14 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/ogticrd/xroad-members',
-            label: 'Repositorio Oficial',
+            to: '/intro/versiones',
+            label: '🏷️ v1.0.0 (Release PUI)',
+            position: 'right',
+            className: 'navbar-version-badge',
+          },
+          {
+            href: 'https://github.com/dixgrake/xroad-members',
+            label: 'GitHub',
             position: 'right',
           },
         ],
