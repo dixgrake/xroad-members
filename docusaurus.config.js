@@ -21,7 +21,6 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'es',
@@ -176,7 +175,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['bash', 'yaml', 'json', 'xml', 'python'],
+        additionalLanguages: ['bash', 'yaml', 'python'],
       },
       tableOfContents: {
         minHeadingLevel: 2,
