@@ -1,0 +1,138 @@
+/**
+ * Custom CSS for X-Road Dominicana (PUI - OGTIC) Documentation
+ */
+
+:root {
+  --ifm-color-primary: #003e85;
+  --ifm-color-primary-dark: #003877;
+  --ifm-color-primary-darker: #003571;
+  --ifm-color-primary-darkest: #002b5d;
+  --ifm-color-primary-light: #004493;
+  --ifm-color-primary-lighter: #00479a;
+  --ifm-color-primary-lightest: #0050ae;
+  --ifm-code-font-size: 92%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 62, 133, 0.1);
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ogtic-navy: #0b1f3a;
+  --ogtic-gold: #c59b27;
+  --ogtic-red: #c8102e;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #3d8bfd;
+  --ifm-color-primary-dark: #2279fd;
+  --ifm-color-primary-darker: #1470fd;
+  --ifm-color-primary-darkest: #0158df;
+  --ifm-color-primary-light: #589dfd;
+  --ifm-color-primary-lighter: #65a6fd;
+  --ifm-color-primary-lightest: #8ec0fe;
+  --docusaurus-highlighted-code-line-bg: rgba(61, 139, 253, 0.15);
+}
+
+/* Header & Navbar styling */
+.navbar {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Callout and badges */
+.pui-badge {
+  display: inline-block;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+
+.pui-badge--gov {
+  background-color: #003e85;
+  color: #ffffff;
+}
+
+.pui-badge--security {
+  background-color: #c8102e;
+  color: #ffffff;
+}
+
+.pui-badge--version {
+  background-color: #107c41;
+  color: #ffffff;
+}
+
+/* Diagram container */
+.mermaid {
+  background: rgba(0, 0, 0, 0.02);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+[data-theme='dark'] .mermaid {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Table refinements */
+table {
+  display: table;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+table th {
+  background-color: rgba(0, 62, 133, 0.06);
+  font-weight: 600;
+}
+
+[data-theme='dark'] table th {
+  background-color: rgba(61, 139, 253, 0.12);
+}
+
+/* Screenshots border and shadow */
+.doc-screenshot {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 1.25rem 0;
+  max-width: 100%;
+  display: block;
+}
+
+/* Cards grid */
+.pui-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.pui-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-card-background-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pui-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.pui-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
