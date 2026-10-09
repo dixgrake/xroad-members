@@ -32,6 +32,15 @@ const config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
+  customFields: {
+    giscus: {
+      repo: process.env.GISCUS_REPO || 'dixgrake/xroad-members',
+      repoId: process.env.GISCUS_REPO_ID || 'R_kgDOVB8WfQ',
+      category: process.env.GISCUS_CATEGORY || 'General',
+      categoryId: process.env.GISCUS_CATEGORY_ID || 'DIC_kwDOVB8Wfc4DHcZq',
+    },
+  },
+
   presets: [
     [
       'classic',

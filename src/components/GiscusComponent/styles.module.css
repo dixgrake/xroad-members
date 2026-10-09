@@ -1,0 +1,65 @@
+.giscusContainer {
+  margin-top: 2.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.giscusHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.giscusTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.giscusIcon {
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.giscusTitleText {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  letter-spacing: -0.01em;
+}
+
+.giscusSubtitle {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  background-color: var(--ifm-color-emphasis-100);
+  padding: 0.2rem 0.65rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+.configNotice {
+  background-color: rgba(0, 56, 168, 0.06);
+  border: 1px dashed var(--ifm-color-primary, #0038a8);
+  border-left-width: 4px;
+  color: var(--ifm-font-color-base);
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 1.25rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.configNotice a {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.giscusWidget {
+  width: 100%;
+  min-height: 160px;
+}
